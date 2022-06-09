@@ -81,6 +81,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.section2 use {left: 50%;
+right: 50%;
+display: block;}
 .tittle {
   font-style: normal;
   font-weight: 900;
@@ -90,9 +93,6 @@ body {
   width: 696px;
   margin: 0 auto;
   text-transform: uppercase;
-}
-.section2 use {
-  display: flex;
 }
 
 .section2 .ul {
@@ -351,3 +351,20 @@ header li:not(:last-child) {
 .section4 .ul {
   justify-content: space-between;
 }
+.ul-footer {list-style: none;
+display: flex;}
+
+.ul-join-us {display: flex;
+list-style: none;
+padding-left: 0px;
+}
+.join-us {font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #fff;
+  text-transform: uppercase;}
+  .footer-margin {margin-right: 70px}
+  .li-join-us {margin-right: 10px}
+  
+
