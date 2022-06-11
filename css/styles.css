@@ -339,7 +339,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 0px;
 }
 .section4 .ul {
   justify-content: space-between;
@@ -376,6 +376,8 @@ align-items: center;}
   display: flex;
 justify-content: space-evenly;
 padding-left: 0px;}
+.svg-figcaption:hover {fill: #2196F3;
+border-radius: 50%}
 .ul-addres {list-style: none;
 display: flex;
 padding-left: 0px;}
@@ -393,3 +395,5 @@ color: #fff;}
 .section6-figure:hover {box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 .section4 .figure:nth-child(1) {margin-left: 0px;}
 .section4 .figure:nth-child(4) {margin-right: 0px;}
+.svg-address {border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1)} 
