@@ -18,7 +18,11 @@ body {
 .container-header {
   display: flex;
   align-items: center;
+  
 }
+.li-header {list-style: none}
+.ul-header {display: flex;
+margin-left: auto;}
 .link {
   text-decoration: none;
 }
@@ -397,13 +401,7 @@ body {
 .div-phone {
   margin-left: 30px;
 }
-.div-phone:hover,
-.div-phone:focus,
-.div-phone:hover svg,
-.div-phone:focus svg {
-  color: #2196f3;
-  fill: #2196f3;
-}
+
 .svg-clients {
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -445,7 +443,7 @@ body {
 }
 .section6-figure:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+    1px 4px 6px rgba(0, 0, 0, 0.16); cursor: pointer;
 }
 .section4 .figure:nth-child(1) {
   margin-left: 0px;
@@ -484,6 +482,9 @@ body {
 .footer-icon-div:focus {
   background-color: #2196f3;
 }
-.div-phone {
-  display: flex;
-}
+.link-header {text-decoration: none; color: #757575; align-items: center;}
+.li-header:nth-child(1) {margin-right: 30px;}
+.li-header:focus a, .li-header:hover a, .li-header:hover svg, li-header:focus svg{color: #2196f3; fill:#2196f3;}
+.link-header {display: flex;} 
+.section2-svg {margin-right: 10px;}
+
