@@ -484,7 +484,7 @@ margin-left: auto;}
 }
 .link-header {text-decoration: none; color: #757575; align-items: center;}
 .li-header:nth-child(1) {margin-right: 30px;}
-.li-header:focus a, .li-header:hover a, .li-header:hover svg, li-header:focus svg{color: #2196f3; fill:#2196f3;}
+.li-header:focus a, .li-header:hover a, .li-header:hover svg, .li-header:focus svg{color: #2196f3; fill:#2196f3;}
 .link-header {display: flex;} 
 .section2-svg {margin-right: 10px;}
 
